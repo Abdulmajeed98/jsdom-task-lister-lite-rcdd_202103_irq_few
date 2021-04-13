@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   form.addEventListener('submit', (e) => {
     e.preventDefault();
     let inputTextValue = inputText.value;
-    const li = document.createElement('li');
+    let li = document.createElement('li');
     li.innerHTML = inputTextValue;
     tasksUL.append(li);
   });
