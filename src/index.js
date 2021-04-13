@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     e.preventDefault();
     let inputTextValue = inputText.value;
     let li = document.createElement('li');
-    li.innerHTML = inputTextValue;
-    tasksUL.append(li);
+    li.innerText = inputTextValue;
+    taskUL.append(li);
   });
 });
